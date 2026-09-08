@@ -2,6 +2,9 @@ name: Check Style and Quality
 
 on: [pull_request, push]
 
+permissions:
+  contents: read
+
 jobs:
     lint:
         name: Lint
